@@ -1,0 +1,30 @@
+.topnav {
+    overflow: hidden;
+    background-color: rgb(61, 59, 59);
+    font-weight: bold;
+    box-shadow: 5px 5px 5px rgb(56, 55, 53);
+    font-family: 'Agency FB';
+  
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  .topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  .topnav-right a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }

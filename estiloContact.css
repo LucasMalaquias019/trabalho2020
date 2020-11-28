@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+
+
+body{
+    background-image: url("https://www.bmw.com.br/content/dam/bmw/common/home/teaser/bmw-5-series-sedan-hometeaser-sp-xxl.jpg/_jcr_content/renditions/cq5dam.resized.img.1680.large.time1590492401436.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+}
+
+.logo-bmw{
+   margin-top: 6px;
+   margin-left: 8px;
+   margin-right: 6px;
+   text-align: center;
+
+}
+
+.bmw-name p{
+    text-align: center;
+    color: white;
+    font-family: 'Bahnschrift Condensed';
+    font-size: 20px;
+
+}
+
+.imagem-contact img{
+    height: 300px;
+    width: 100%;
+}
+
+.texto-contato{
+    color:white;    
+    text-align: left;
+    margin-left: 13%;
+    font-weight: bold;
+   line-height: 5px;
+  
+}
+
+.texto-contato h1{
+    font-size: 50px;
+    font-family: 'Agency FB';
+ 
+}
+
+.texto-contato h2{
+    font-size: 25px;
+    font-family: 'Agency FB';
+}
+
+.bmw-contact{
+    display: block;
+    color: white;
+    font-family: 'Bahnschrift Condensed';
+}
+
+table.bmw-contact{
+margin-bottom: 550px;
+margin-left: 180px;
+height: 100px;
+
+
+}
+
+table.bmw-contact td{
+    font-weight: bold;
+    
+    background-color: #faf3f3;
+    color: black;
+    height: 100px;
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 500px;
+    padding-left: 10px;
+  
+}
+
+table.bmw-contact td.long{
+    height: 500px;
+    width: 400px;
+    padding-left: 10px;
+   text-align: start;
+}
+
+table.bmw-contact td.dark{
+    background-color: rgb(219, 217, 214);
+}
+
+table.bmw-contact tr.dark td.long{
+    background-color: rgb(219, 217, 214);
+}
+table.bmw-contact td.dark:hover{
+    background-color: rgb(99, 98, 98); ;
+    border-color: solid rgb(107, 106, 105); 
+    color: rgb(219, 217, 214);
+}
+
+
+.form{
+    font-family: 'Agency FB';
+    margin-left: 180px;
+    color: #000000;
+    position: relative;
+    height: 30%;
+    background-color: #3b3a3a;
+    width: 70%;
+    box-shadow: 7px 7px 7px rgb(53, 52, 51);
+    padding-bottom: 2%;
+}
+fieldset{
+    position: relative;
+    border: 2px solid  #21d5ec; 
+    padding-bottom: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+legend{
+ color: white;
+ font-weight: bold;
+ font-size: 17px;
+ padding: 8px;
+ text-align: center;
+ font-family: 'Agency FB';
+}
+
+.form-group {
+    display: flex;  
+     flex-direction: row;
+}
+
+.form-group label{
+    flex: none;    
+    display: block;
+    width: 100px;   
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    text-align: right;
+}
+
+.form-group label.right-inline {
+    text-align: right;
+    padding-right: 8px;
+    padding-left: 10px;
+    width: auto;
+    text-align: center;  
+    padding-right: 8px;
+    padding-left: 10px;
+    color: white;
+}
+
+.form-group input.input-control{
+    font-family: 'Agency FB';
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    padding: 2px;        
+    flex: 1 1 auto;
+    border: 2px solid black;
+}
+
+.form-group.input-control:hover{
+    background-color: #3f3d3d;
+}
+
+.form-group select.departament{
+    font-family: 'Agency FB';
+    margin-bottom: 10px;
+
+}
+
+.form-group textarea{
+    width: 40%;
+    height:100px;
+}
+
+button{
+    font-family: 'Agency FB';
+    color: #033957;
+    background-color:  #21d5ec;
+    border: 4px solid black;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button.botaoenviar:hover{
+
+    background-color:red;
+    color: white;
+}
+
+.botaoenviar{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    left: 92px;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;        
+}
+
+

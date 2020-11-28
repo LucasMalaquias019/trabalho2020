@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+
+
+body{
+ background-image: url("https://images.unsplash.com/photo-1564834401229-4aecdeb9c37c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") ;
+ background-repeat: no-repeat;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(61, 59, 59);
+    font-weight: bold;
+    box-shadow: 5px 5px 5px rgb(56, 55, 53);
+    font-family: 'Agency FB';
+  
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #21d5ec;
+    color: black;
+
+  }
+
+  .topnav a.new:hover{
+    background-color: rgb(255, 255, 255);
+    color: white;
+  }
+  
+  .topnav a.contact:hover{
+    background-color:  #ffffff;
+    color: rgb(0, 0, 0);
+  }
+
+  .topnav-right {
+    float: right;
+  }
+
+  .textobmw{
+    border: 4px solid rgb(54, 54, 53);
+    color: white;
+    margin-left: 5%;
+    margin-top: 30px;
+    padding-bottom: 5%;
+    font-weight: bold;
+    position: relative;
+    display: block;
+    background-color: black;
+    opacity: 0.6 ;
+    width: 40%;
+    box-shadow: 7px 7px 7px rgb(75, 74, 72);
+    color: rgb(255, 255, 255);
+
+  }
+
+  h1{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Bahnschrift Condensed';
+  }
+
+  .tabelabmw{
+    font-size: 17px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-family: 'Bahnschrift Condensed';
+  }
+
+  .tabelabmw td{
+    border: 1px solid rgb(255, 255, 255);
+    width: 20%;
+  }
+  
+  .tabelabmw td.result{
+    text-align: center;
+  }
+
+  .tabelabmw td.color-bluelight:hover{
+    border: 2px solid  #21d5ec ;
+    
+  }
+
+  .tabelabmw td.color-red:hover{
+    border: 2px solid #FF0000 ;
+  }
+
+  .tabelabmw td.color-bluesea:hover{
+    border: 2px solid  rgb(9, 94, 190);
+  }
+
+ .tabelabmw td {
+    text-align: center;
+  }

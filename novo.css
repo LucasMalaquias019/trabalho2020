@@ -1,0 +1,91 @@
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(61, 59, 59);
+  font-weight: bold;
+  box-shadow: 5px 5px 5px rgb(56, 55, 53);
+  font-family: 'Agency FB';
+
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 100%;
+  margin: 12px;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 5%;
+  padding: 10px;
+  margin:11px;
+  top: 1px;
+  right: 16px;
+  position: relative;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
